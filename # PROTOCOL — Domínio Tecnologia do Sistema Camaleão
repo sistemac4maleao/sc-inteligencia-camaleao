@@ -1,0 +1,275 @@
+# PROTOCOL — Domínio Tecnologia do Sistema Camaleão
+
+**ID:** PROTOCOL-TECNOLOGIA-001
+**artifact_type:** PROTOCOL
+**maturity_level:** M4
+**governance:** ECO
+**status:** ativo
+**versao:** v1.0
+**timestamp:** 2026-07-10
+**origem:** consolidação da arquitetura do Domínio Tecnologia a partir do SISTEMA-BOOT, do PROTOCOL-VISUAL-001 e da definição do primeiro ciclo estrutural do Sistema Camaleão.
+
+---
+
+# O que este protocolo organiza
+
+Este protocolo especializa o Sistema Camaleão para o Domínio Tecnologia.
+
+Seu objetivo é organizar infraestrutura de conhecimento, governança documental, integração entre ferramentas e preparação do ambiente onde os operadores do Sistema Camaleão irão atuar.
+
+O domínio Tecnologia não existe para automatizar processos.
+
+Seu objetivo é construir uma infraestrutura organizada, rastreável e independente de ferramentas, permitindo que futuras integrações, mecanismos de busca, RAGs, agentes e automações sejam incorporados sem alterar a identidade do sistema.
+
+Ferramentas são implementações.
+
+O protocolo permanece.
+
+---
+
+# PAPEL DESTE PROTOCOLO
+
+Este documento representa a camada operacional do Domínio Tecnologia.
+
+Seu papel é especializar o SISTEMA-BOOT para decisões relacionadas à infraestrutura do Sistema Camaleão.
+
+Não substitui o protocolo principal.
+
+Toda decisão tomada neste domínio deve permanecer compatível com os princípios definidos pelo SISTEMA-BOOT.
+
+---
+
+# FUNDAMENTO — onde está, não o que diz
+
+Este protocolo não fundamenta teorias.
+
+Ele aponta para os documentos que fundamentam a arquitetura do domínio.
+
+```
+Sistema Camaleão
+    → SISTEMA-BOOT.md
+
+Arquitetura conceitual do domínio
+    → PROMPT DE ATIVAÇÃO — Squad Tecnologia
+
+Estrutura universal do protocolo
+    → PROTOCOL-VISUAL-001
+```
+
+As referências acima explicam por que o domínio existe.
+
+Este protocolo define como esse conhecimento deve ser aplicado durante a construção da infraestrutura tecnológica do Sistema Camaleão.
+
+---
+
+# ORDEM DE DECISÃO E IMPLEMENTAÇÃO
+
+```
+Ordem de decisão (raciocínio)
+
+Necessidade
+    ↓
+Contexto
+    ↓
+Autoridade
+    ↓
+Estrutura
+    ↓
+Implementação
+
+Ordem de implementação
+
+Estrutura
+    ↓
+Organização
+    ↓
+Conexão
+    ↓
+Validação
+    ↓
+Operação
+```
+
+A implementação nunca orienta a arquitetura.
+
+A arquitetura define quais implementações são aceitáveis.
+
+---
+
+# IMPLEMENTAÇÕES ATUAIS DA ARQUITETURA
+
+## Organização Documental
+
+**Confiança:** alta.
+
+Toda evolução futura depende da organização dos ativos existentes.
+
+Documentos precisam possuir localização conhecida, responsabilidade definida e relação explícita com outros ativos.
+
+---
+
+## Governança
+
+**Confiança:** alta.
+
+Toda ferramenta deve operar sobre documentos governados.
+
+A autoridade pertence ao protocolo.
+
+Nunca à plataforma.
+
+---
+
+## Integração entre Ferramentas
+
+**Confiança:** média.
+
+Conectores entre plataformas representam implementações da arquitetura.
+
+A troca de uma ferramenta não altera o protocolo.
+
+Hipótese aberta:
+
+Definir padrões de integração independentes de fornecedor.
+
+---
+
+## Preparação para Recuperação de Conhecimento (RAG)
+
+**Confiança:** média.
+
+O primeiro ciclo não implementa mecanismos de RAG.
+
+Seu objetivo é preparar uma infraestrutura onde mecanismos de recuperação possam operar posteriormente com segurança.
+
+Hipótese aberta:
+
+Avaliar diferentes arquiteturas de indexação apenas após consolidação da organização documental.
+
+---
+
+## Preparação para Automações
+
+**Confiança:** baixa.
+
+Automações não pertencem ao primeiro ciclo.
+
+Toda automação deverá operar apenas sobre processos previamente estruturados e validados.
+
+Hipótese aberta:
+
+Definir critérios mínimos para promoção de processos organizados a processos automatizados.
+
+---
+
+# DESCOBERTAS CONSOLIDADAS
+
+- Organização antecede integração.
+- Integração antecede automação.
+- Automação antecede inteligência operacional.
+- Ferramentas não definem identidade.
+- O protocolo permanece independente da infraestrutura utilizada.
+- O primeiro RAG é humano: antes da recuperação semântica, o operador deve localizar naturalmente o conhecimento.
+
+---
+
+# ESCOPO ATUAL E LIMITE EXPLÍCITO
+
+O primeiro ciclo deste domínio limita-se à organização da infraestrutura.
+
+Inclui:
+
+- organização documental;
+- estrutura de projetos;
+- governança;
+- conexões entre ferramentas;
+- catalogação de ativos.
+
+Não inclui:
+
+- agentes autônomos;
+- automações;
+- bancos vetoriais;
+- fluxos automáticos;
+- IA executando ações sem confirmação do operador.
+
+Toda ação destrutiva permanece dependente de autorização explícita do operador humano.
+
+---
+
+# PORTABILIDADE PARA OUTROS ECOSSISTEMAS
+
+A arquitetura deste domínio deve permanecer independente das plataformas utilizadas.
+
+Google Drive, Notion, Slack, GitHub, bancos vetoriais, serviços de armazenamento ou futuras tecnologias representam implementações possíveis do protocolo.
+
+A substituição de qualquer ferramenta não altera a arquitetura do Sistema Camaleão.
+
+---
+
+# AUTORIDADE VIGENTE
+
+```
+Sobre governança geral
+    → SISTEMA-BOOT
+
+Sobre comportamento do Squad
+    → Prompt de Ativação — Squad Tecnologia
+
+Sobre arquitetura operacional deste domínio
+    → PROTOCOL-TECNOLOGIA-001
+
+Sobre descobertas do domínio
+    → LOGs
+    → APEs
+    → SNAPSHOTs
+    → SPECs
+```
+
+---
+
+# ARTEFATOS DE ORIGEM DESTE PROTOCOLO
+
+```
+M4 — PROTOCOL
+
+SISTEMA-BOOT
+
+PROTOCOL-VISUAL-001
+
+Prompt de Ativação — Squad Tecnologia
+
+----------------------------
+
+M1 — LOG
+
+LOG-TECNOLOGIA-ABSTRACAO-ARQUITETURA-001
+
+----------------------------
+
+M2 — APE
+
+APE-TECNOLOGIA-INFRAESTRUTURA-001
+
+----------------------------
+
+M2 — SNAPSHOT
+
+(ainda não existente)
+
+----------------------------
+
+M3 — SPEC
+
+(ainda não existente)
+
+----------------------------
+
+Nível acima
+
+CONCEITO-SISTEMACAMALEAO-001
+```
+
+---
+
+System: Sistema Camaleão v3.0 | Artifact: PROTOCOL | Version: v1.0 | Status: ativo

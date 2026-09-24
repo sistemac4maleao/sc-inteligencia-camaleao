@@ -1,0 +1,243 @@
+# PROTOCOL — Cross-Domínio
+
+**ID:** PROTOCOL-CROSS-001
+
+**artifact_type:** PROTOCOL
+
+**maturity_level:** M4
+
+**governance:** ECO
+
+**status:** ativo
+
+**versão:** v2.1
+
+---
+
+# O que este protocolo organiza
+
+Este protocolo define como diferentes domínios do Sistema Camaleão compartilham conhecimento preservando identidade, contexto e independência.
+
+Ele não define como um domínio trabalha.
+
+Ele define como domínios diferentes podem aprender entre si.
+
+---
+
+# Missão
+
+Garantir a interoperabilidade entre domínios especializados.
+
+O conhecimento permanece no domínio onde nasceu.
+
+A reutilização acontece sem perda de contexto ou de significado.
+
+---
+
+# Escopo
+
+Aplica-se a qualquer domínio do Sistema Camaleão.
+
+Exemplos:
+
+- Branding
+- Visual
+- Tecnologia
+- Comercial
+- Marketing
+- Produtos
+- Personagens
+- futuros domínios
+
+O protocolo é transversal.
+
+Nunca especializado.
+
+---
+
+# Princípios
+
+## Especialização antes de integração
+
+Todo conhecimento nasce e amadurece dentro do domínio onde foi produzido.
+
+Integração nunca antecede validação.
+
+---
+
+## O domínio é soberano
+
+Cada domínio decide:
+
+- linguagem;
+- estrutura;
+- critérios técnicos;
+- evolução interna.
+
+O Cross-Domínio nunca altera essas decisões.
+
+---
+
+## Interoperabilidade
+
+Conhecimento pode ser reutilizado entre domínios desde que preserve:
+
+- identidade;
+- contexto;
+- escopo de validade;
+- autoria.
+
+Interoperabilidade não exige uniformidade.
+
+Um conhecimento pode ser reutilizado por outro domínio sem que sua estrutura de origem seja reproduzida. O que deve ser preservado é sua função, significado, condições e limites de validade.
+
+---
+
+## Independência
+
+Nenhum domínio deve depender estruturalmente de outro para funcionar.
+
+A reutilização é opcional.
+
+Nunca obrigatória.
+
+---
+
+# Correspondências
+
+Toda relação entre domínios deve ser classificada antes de qualquer reutilização.
+
+### Convergência
+
+Dois domínios chegaram independentemente ao mesmo padrão.
+
+Evidência forte.
+
+---
+
+### Generalização
+
+Um domínio adaptou deliberadamente um padrão validado por outro.
+
+Transferência controlada.
+
+---
+
+### Dependência disfarçada
+
+Um domínio só funciona porque outro está implicitamente presente.
+
+Erro arquitetural.
+
+Deve ser eliminado.
+
+---
+
+### Portabilidade
+
+Um conhecimento demonstrou capacidade de ser reutilizado em outro contexto sem depender de convergência ou adaptação direta entre domínios.
+
+A transferência preserva a função, o significado e as condições de validade do conhecimento, enquanto permite que sua estrutura seja adaptada ao novo contexto.
+
+---
+
+# Fluxo Universal
+
+```
+Domínio
+
+↓
+
+LOG
+
+↓
+
+APE
+
+↓
+
+SPEC
+
+↓
+
+Cross-Domínio
+
+↓
+
+reutilização entre domínios
+```
+
+Este fluxo representa o caminho típico de maturação e compartilhamento.
+
+Não constitui uma sequência obrigatória para todo conhecimento.
+
+O Cross recebe apenas conhecimento suficientemente estruturado para ser compartilhado.
+
+Exploração permanece no domínio de origem.
+
+---
+
+# Responsabilidades
+
+O Cross-Domínio:
+
+- conecta domínios;
+- preserva contexto;
+- identifica correspondências;
+- protege a independência da arquitetura.
+
+O Cross-Domínio não:
+
+- cria conhecimento;
+- promove maturidade;
+- altera domínios;
+- decide conteúdo técnico.
+
+---
+
+# Relação com o Squad de Maturidade
+
+O Cross-Domínio organiza a circulação do conhecimento.
+
+O Squad de Maturidade decide quando um artefato está pronto para tornar-se patrimônio reutilizável do Sistema Camaleão.
+
+São responsabilidades complementares.
+
+Nunca sobrepostas.
+
+---
+
+# Relação com o CORE-SSOT
+
+O CORE-SSOT define a identidade permanente do Sistema Camaleão.
+
+O Cross-Domínio aplica essa identidade às relações entre domínios.
+
+Não redefine princípios.
+
+Não amplia o CORE.
+
+---
+
+# Critério Universal
+
+Uma interação entre domínios fortalece o Sistema Camaleão quando:
+
+- preserva identidade;
+- mantém independência;
+- aumenta reutilização;
+- reduz duplicação;
+- mantém rastreabilidade da origem.
+
+Caso contrário, permanece como conhecimento local do domínio.
+
+---
+
+# Definição Final
+
+> **O Protocol Cross-Domínio garante que domínios especializados possam compartilhar conhecimento sem compartilhar dependências.**
+> 
+
+---
+
+**Sistema Camaleão v3.0 | Artifact: PROTOCOL | Domain: Cross-Domínio | Version: v2.1 | Status: ativo**

@@ -1,0 +1,215 @@
+# GUIDE — INTELIGÊNCIA CAMALEÃO NO DOMÍNIO
+
+**artifact_type:** GUIDE
+
+**versão:** v1.1
+
+**status:** referência
+
+**governança:** ECO
+
+**escopo:** aplicação da Inteligência Camaleão no domínio
+
+---
+
+## 1. PROPÓSITO
+
+Este GUIDE orienta como a **Inteligência Camaleão** se manifesta neste domínio.
+
+Ela não cria uma nova arquitetura, camada ou inteligência.
+
+Sua função é adaptar **contexto, estrutura, controle e liberdade** conforme a operação, preservando a identidade do Sistema.
+
+---
+
+## 2. PRINCÍPIO CENTRAL
+
+> **Preservar o que não pode desaparecer e adaptar o que pode mudar.**
+> 
+
+A Inteligência Camaleão não busca controlar tudo.
+
+Ela distribui controle e liberdade de acordo com a **sensibilidade da operação**.
+
+---
+
+## 3. COMO OPERAR
+
+Em cada operação, identificar, conforme a relevância para o contexto:
+
+### O que precisa ser preservado?
+
+[Elementos que não podem ser alterados.]
+
+### O que pode adaptar?
+
+[Elementos que podem variar conforme contexto.]
+
+### Onde existe sensibilidade?
+
+[Informações, decisões, relações ou estruturas que exigem maior controle.]
+
+### Onde existe liberdade?
+
+[Partes em que exploração, interpretação ou adaptação são desejáveis.]
+
+Essas dimensões não constituem necessariamente uma sequência fixa.
+
+A operação pode exigir maior atenção a uma dimensão do que a outra.
+
+---
+
+## 4. DISTRIBUIÇÃO DE CONTROLE
+
+A regra é:
+
+**Alta sensibilidade → maior controle**
+
+**Baixa sensibilidade → maior liberdade**
+
+Controle excessivo também é um problema.
+
+O objetivo é encontrar uma distribuição funcional entre:
+
+- preservação;
+- controle;
+- adaptação;
+- liberdade.
+
+A distribuição deve considerar também as **relações de influência** entre esses elementos.
+
+Uma mudança em uma parte pode afetar outra, tornando necessário aumentar ou reduzir o controle conforme a operação.
+
+---
+
+## 5. CONTEXTO
+
+A importância de uma informação, camada ou relação não é determinada pelo seu nome ou posição.
+
+> **A importância é determinada pela operação.**
+> 
+
+Uma informação normalmente secundária pode se tornar crítica em determinado contexto.
+
+Uma informação normalmente importante pode ter menor relevância em outra operação.
+
+A sensibilidade não é necessariamente permanente: ela pode emergir da relação entre elementos e do objetivo da operação.
+
+---
+
+## 6. ADAPTAÇÃO
+
+Adaptar não significa alterar a identidade.
+
+Ao adaptar:
+
+- preservar a essência;
+- preservar o que é estrutural;
+- alterar apenas o que pode variar;
+- considerar o contexto da operação;
+- observar efeitos sobre elementos relacionados;
+- evitar dependências desnecessárias.
+
+A adaptação deve aumentar a adequação sem diluir a identidade.
+
+---
+
+## 7. USO DA INFORMAÇÃO
+
+Adicionar informação somente quando ela tiver uma função real.
+
+A informação deve servir para:
+
+- proteger o núcleo;
+- resolver um problema;
+- definir um ponto sensível;
+- orientar uma intenção;
+- impedir um comportamento indesejado;
+- aumentar a reutilização ou continuidade.
+
+Se não houver função clara, não adicionar.
+
+---
+
+## 8. PERGUNTAS DE VERIFICAÇÃO
+
+Antes de concluir uma operação:
+
+1. **O que precisa permanecer?**
+2. **O que pode mudar?**
+3. **O que está sensível neste contexto?**
+4. **Quais elementos influenciam uns aos outros?**
+5. **Onde devo aumentar o controle?**
+6. **Onde posso permitir liberdade?**
+7. **Estou adaptando ou alterando a identidade?**
+8. **Estou adicionando informação com função real?**
+9. **Esta decisão pertence ao domínio ou está interferindo em outra camada?**
+
+---
+
+## 9. LIMITE
+
+A Inteligência Camaleão:
+
+- não substitui o CORE;
+- não substitui protocolos;
+- não cria regras de domínio;
+- não transforma hipótese em fato;
+- não exige controle total;
+- não cria uma inteligência diferente para cada contexto.
+
+Ela atua **transversalmente sobre aquilo que já existe**.
+
+---
+
+## 10. CRITÉRIO FINAL
+
+Uma operação está alinhada à Inteligência Camaleão quando:
+
+> **preserva a identidade, adapta o que pode mudar e distribui controle e liberdade de forma proporcional à sensibilidade do contexto, considerando as relações de influência envolvidas.**
+> 
+
+---
+
+## 11. RESUMO OPERACIONAL
+
+A Inteligência Camaleão não exige uma sequência fixa.
+
+Ela observa, conforme a operação:
+
+```
+PRESERVAÇÃO
+    ↕
+ADAPTAÇÃO
+    ↕
+CONTROLE
+    ↕
+LIBERDADE
+    ↕
+RELAÇÕES DE INFLUÊNCIA
+    ↓
+VERIFICAÇÃO
+    ↓
+A identidade permaneceu?
+```
+
+A direção entre essas dimensões depende do contexto e da operação.
+
+---
+
+## 12. REGRA DE ECONOMIA
+
+Não criar complexidade para demonstrar adaptação.
+
+Não controlar aquilo que não precisa ser controlado.
+
+Não preservar aquilo que pode evoluir.
+
+Não adaptar aquilo que define a identidade.
+
+Não adicionar informação sem função.
+
+Não isolar elementos quando suas relações forem relevantes para a operação.
+
+> **A melhor adaptação é aquela que muda o necessário, preserva o essencial e respeita as relações que sustentam o contexto.**
+>

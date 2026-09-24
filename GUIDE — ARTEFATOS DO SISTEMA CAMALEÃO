@@ -1,0 +1,509 @@
+# GUIDE — ARTEFATOS DO SISTEMA CAMALEÃO
+
+**artifact_type:** GUIDE
+
+**versão:** v1.0
+
+**status:** referência-base
+
+**governança:** ECO
+
+**escopo:** configuração de domínio
+
+---
+
+## 1. PROPÓSITO
+
+Este GUIDE explica **quais artefatos podem existir no domínio, para que servem e como iniciar cada um**.
+
+Seu objetivo é evitar que:
+
+- aprendizado seja confundido com regra;
+- estado seja confundido com conhecimento;
+- uma operação seja confundida com uma decisão;
+- um experimento seja tratado como conhecimento consolidado.
+
+Os templates são mínimos e devem ser adaptados ao contexto.
+
+---
+
+# 2. ARTEFATOS PRINCIPAIS
+
+## CORE-SSOT
+
+Define a identidade permanente do Sistema Camaleão.
+
+**Usar para:** identidade, essência, princípios permanentes e limites estruturais.
+
+**Não usar para:** processos, decisões de domínio, experimentos ou conhecimento temporário.
+
+### Template
+
+```
+# CORE-SSOT — [Nome]
+
+**versão:**
+**status:**
+
+## 1. IDENTIDADE
+
+[Quem somos.]
+
+## 2. PROPÓSITO
+
+[Por que existimos.]
+
+## 3. ESSÊNCIA
+
+[O que precisa permanecer.]
+
+## 4. PRINCÍPIOS
+
+[Princípios permanentes.]
+
+## 5. ESCOPO
+
+[O que este CORE define.]
+
+## 6. NÃO ESCOPO
+
+[O que não deve ser definido aqui.]
+
+## 7. DEFINIÇÃO FINAL
+
+[Definição curta e estável.]
+```
+
+---
+
+# 3. PROTOCOL — CROSS-DOMÍNIO
+
+Define como conhecimento pode circular entre domínios sem perder contexto, significado ou independência.
+
+**Usar para:** relações entre domínios, correspondências, reutilização e portabilidade.
+
+**Não usar para:** definir como um domínio trabalha.
+
+O protocolo deve preservar a soberania do domínio de origem e não exigir uniformidade estrutural para permitir reutilização.
+
+### Template
+
+```
+# PROTOCOL — Cross-Domínio
+
+**ID:**
+**versão:**
+**status:**
+**domínio:** transversal
+
+## 1. PROPÓSITO
+
+[Como este protocolo permite circulação de conhecimento.]
+
+## 2. ESCOPO
+
+[Quais relações entre domínios cobre.]
+
+## 3. PRINCÍPIOS
+
+- [princípio]
+- [princípio]
+- [princípio]
+
+## 4. CORRESPONDÊNCIAS
+
+### Convergência
+[Quando conhecimentos diferentes chegam a comportamento semelhante.]
+
+### Generalização
+[Quando um conhecimento pode ser abstraído.]
+
+### Portabilidade
+[Quando o conhecimento demonstrou reutilização em outro contexto.]
+
+### Dependência de domínio
+[Quando o conhecimento permanece condicionado ao domínio de origem.]
+
+## 5. CIRCULAÇÃO
+
+[Como o conhecimento pode sair de um domínio e ser reutilizado.]
+
+## 6. LIMITES
+
+[O que este protocolo não pode alterar.]
+
+## 7. CRITÉRIO
+
+[Quando a circulação é considerada adequada.]
+```
+
+---
+
+# 4. PROTOCOL — [DOMÍNIO]
+
+Define **como aquele domínio opera, pensa ou organiza seu conhecimento**.
+
+É específico do domínio.
+
+Não deve redefinir o CORE nem criar regras para outros domínios.
+
+### Template
+
+```
+# PROTOCOL — [Domínio]
+
+**ID:**
+**versão:**
+**status:**
+**domínio:**
+
+## 1. PROPÓSITO
+
+[Para que o protocolo existe.]
+
+## 2. ESCOPO
+
+[O que pertence ao domínio.]
+
+## 3. PRINCÍPIOS DO DOMÍNIO
+
+- [princípio]
+- [princípio]
+- [princípio]
+
+## 4. OPERAÇÕES
+
+[Como o domínio normalmente trabalha.]
+
+## 5. CONHECIMENTO
+
+[Como conhecimento é produzido, validado ou utilizado.]
+
+## 6. LIMITES
+
+[O que o domínio não deve assumir.]
+
+## 7. RELAÇÃO COM O SISTEMA
+
+[Como o domínio permanece alinhado ao CORE.]
+
+## 8. CRITÉRIO DE SAÍDA
+
+[Quando um conhecimento ou decisão pode ser encaminhado
+para outro artefato ou domínio.]
+```
+
+---
+
+# 5. GUIDE — ARTEFATOS
+
+Este próprio documento funciona como referência para escolher o artefato adequado.
+
+A pergunta principal é:
+
+> **O que estou registrando?**
+> 
+
+### Se for identidade permanente
+
+→ **CORE**
+
+### Se for regra ou forma estável de operar
+
+→ **SPEC**
+
+### Se for aprendizado produzido durante uma experiência
+
+→ **APE**
+
+### Se for um estado ou fotografia de determinado momento
+
+→ **SNAPSHOT**
+
+### Se for uma decisão operacional registrada
+
+→ **LOG**
+
+### Se for conhecimento reutilizável entre contextos
+
+→ **Artefato reutilizável / Biblioteca**, conforme maturidade.
+
+---
+
+# 6. TEMPLATE — SPEC
+
+Use quando uma operação estiver suficientemente definida para ser repetida.
+
+Uma SPEC não registra apenas uma ideia.
+
+Ela define **como executar uma operação**.
+
+```
+# SPEC — [Operação]
+
+**ID:**
+**versão:**
+**status:**
+**domínio:**
+**maturidade:**
+
+## 1. OBJETIVO
+
+[O que a operação realiza.]
+
+## 2. ENTRADA
+
+[O que é necessário para executar.]
+
+## 3. PROCESSO
+
+[Como executar.]
+
+## 4. CRITÉRIOS
+
+[O que deve ser preservado ou observado.]
+
+## 5. OUTPUT
+
+[Resultado esperado.]
+
+## 6. LIMITES
+
+[O que a SPEC não deve fazer.]
+
+## 7. VALIDAÇÃO
+
+[Como verificar se a operação funcionou.]
+```
+
+---
+
+# 7. TEMPLATE — APE
+
+Use para registrar **aprendizado obtido durante uma experiência**.
+
+O APE não deve transformar automaticamente uma observação em regra.
+
+A separação entre fatos, decisões e hipóteses é importante.
+
+```
+# APE — [Aprendizado]
+
+**ID:**
+**versão:**
+**status:**
+**domínio:**
+**origem:**
+
+## 1. CONTEXTO
+
+[Onde e por que o aprendizado surgiu.]
+
+## 2. OBSERVAÇÃO
+
+[O que foi observado.]
+
+## 3. APRENDIZADO
+
+[O que foi aprendido.]
+
+## 4. FATOS OBSERVADOS
+
+- [fato]
+
+## 5. DECISÕES
+
+- [decisão]
+
+## 6. HIPÓTESES
+
+- [hipótese]
+
+## 7. APLICAÇÃO
+
+[Onde o aprendizado pode ser útil.]
+
+## 8. LIMITES
+
+[Onde ainda não deve ser generalizado.]
+```
+
+---
+
+# 8. TEMPLATE — SNAPSHOT
+
+Use quando for necessário registrar **um estado específico em determinado momento**.
+
+Não representa necessariamente uma verdade permanente.
+
+```
+# SNAPSHOT — [Nome]
+
+**ID:**
+**data:**
+**versão:**
+**domínio:**
+**status:**
+
+## 1. CONTEXTO
+
+[Contexto do registro.]
+
+## 2. ESTADO
+
+[Como o sistema, projeto ou conhecimento estava.]
+
+## 3. ELEMENTOS RELEVANTES
+
+- [elemento]
+- [elemento]
+
+## 4. DECISÕES VIGENTES
+
+- [decisão]
+
+## 5. OBSERVAÇÕES
+
+[Informações relevantes daquele momento.]
+
+## 6. VALIDADE
+
+[Até quando ou em quais condições este estado deve ser considerado.]
+```
+
+---
+
+# 9. TEMPLATE — LOG
+
+Use para registrar **uma execução, ocorrência ou decisão concreta**.
+
+O LOG preserva rastreabilidade.
+
+```
+# LOG — [Evento]
+
+**ID:**
+**data:**
+**domínio:**
+**operação:**
+
+## 1. OBJETIVO
+
+[O que estava sendo realizado.]
+
+## 2. ENTRADA
+
+[Informações utilizadas.]
+
+## 3. EXECUÇÃO
+
+[O que foi feito.]
+
+## 4. RESULTADO
+
+[O que aconteceu.]
+
+## 5. DECISÃO
+
+[Decisão tomada, se houver.]
+
+## 6. EVIDÊNCIA
+
+[Resultado ou evidência disponível.]
+
+## 7. PRÓXIMO PASSO
+
+[Se aplicável.]
+```
+
+---
+
+# 10. REGRA DE ESCOLHA
+
+Antes de criar um artefato, perguntar:
+
+**É identidade?**
+
+→ CORE
+
+**É uma operação estável?**
+
+→ SPEC
+
+**É aprendizado?**
+
+→ APE
+
+**É um estado?**
+
+→ SNAPSHOT
+
+**É um registro de execução ou ocorrência?**
+
+→ LOG
+
+**É conhecimento reutilizável?**
+
+→ avaliar maturidade e destino.
+
+---
+
+# 11. REGRA DE ECONOMIA
+
+Não criar um artefato apenas porque existe informação para registrar.
+
+Criar quando houver uma função clara:
+
+- preservar;
+- executar;
+- aprender;
+- registrar;
+- comunicar;
+- reutilizar.
+
+> **Se a informação não precisa sobreviver como unidade independente, ela pode permanecer no contexto de origem.**
+> 
+
+---
+
+# 12. RELAÇÃO ENTRE OS ARTEFATOS
+
+```
+CONTEXTO
+   │
+   ├── execução ─────────→ LOG
+   │
+   ├── estado ───────────→ SNAPSHOT
+   │
+   └── experiência
+          │
+          ↓
+         APE
+          │
+          ↓
+    conhecimento
+          │
+          ↓
+        SPEC
+   (quando houver operação estável)
+          │
+          ↓
+   reutilização / Biblioteca
+```
+
+O fluxo não é obrigatório para todo conhecimento.
+
+A função do artefato determina sua escolha.
+
+---
+
+# 13. PRINCÍPIO FINAL
+
+> **O artefato deve refletir a natureza da informação, não forçar a informação a caber em um artefato.**
+> 
+
+Os templates são pontos de partida.
+
+O domínio pode adicionar, remover ou adaptar campos quando houver uma necessidade real.
+
+🔴 **Estado:** GUIDE-base. Os templates são estruturas operacionais de referência e não substituem os protocolos ou critérios de maturidade.
